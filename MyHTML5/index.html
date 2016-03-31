@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>My HTML5 Web Site</title>
+	<meta charset="utf-8" />
+    <style>
+        #stain{
+            overflow:visible;
+        }
+    </style>
+
+</head>
+<body bgcolor="#6ed3d2">
+
+    <h1 align="center">HTML5 Elements </h1>
+
+    <hr />
+    <h3 align="center">New technology for cleaning clothes</h3>
+    <hr />
+    <div>
+        <p align="left" id="stain">
+            Forget all the <ins>smart washing machines</ins> you've seen at the annual Consumer Electronics Show,
+            as there’s a fascinating new development that might let you clean your clothing using
+            tech that's straight out of a science fiction movie. The <span style="background-color: red;">technique involves</span>  wearing
+            the <mark>dirty clothes</mark> out in the sun so that solar energy can catalyze a chemical reaction
+            that would obliterate <del>stains.</del>
+            In other words, the next time you drop ketchup on your shirt at the game, it might clean
+            itself off by the time you're ready to leave the stadium.
+        </p>
+        <p id="clothe">
+
+            Published in Advanced Materials Interfaces, the study involves a new kind of fabric that’s made
+            of copper and silver nanostructure woven inside cotton textiles and kept in place by a fixative
+            solution.Researchers from the Royal Melbourne Institute of Technology at the University of Melbourne
+            can clean stains within six minutes using the technology, although heavy stains might not be wiped out
+            immediately. Tomato sauce and red wine are still be tricky to remove.
+        </p>
+
+    </div>
+    <div>
+        <p>
+            When sunlight hits the metallic nanostructure, it releases high-energy electrons that can
+            break down the organic molecules of dirt. The image above shows a closeup of the fabric.
+            The nanoparticles are invisible to the naked eye, and the photo above has been magnified 200 times.
+        </p>
+    </div>
+    <div>
+        <p>
+            "The advantage of textiles is they already have a 3D structure, so they are great
+            at absorbing light, which in turn speeds up the process of degrading organic matter,
+            " Dr. Rajesh Ramanathan said, according to <a href="http://phys.org/news/2016-03-nano-enhanced-textiles.html" target="_parent">PhysOrg.</a>
+        </p>
+        <center>
+            <img src="images/clothes.jpg" alt="New technology to clean clothes" width="200" height="200" />
+        </center>
+
+    </div>
+    <hr />
+
+    <div>
+        <textarea rows="4" warp="true" cols="70">
+            He continued, "There's more work to do to before
+            we can start throwing out our washing machines,
+            but this advance lays a strong foundation for the
+            future development of fully self-cleaning textiles."
+        </textarea>
+        <hr />
+
+        <select>
+
+            <option value="DAT202x">Processing Big Data with Azure HDInsight</option>
+            <option value="DAT204x">Introduction to R Programming</option>
+            <option value="CLD203x">Office 365: Managing Identities and Services</option>
+            <option value="DEV208x">Introduction to jQuery</option>
+
+        </select>
+
+        <select>
+            <optgroup label="Data Platform">
+                <option value="DAT202x">Processing Big Data with Azure HDInsight</option>
+                <option value="DAT204x">Introduction to R Programming</option>
+            </optgroup>
+            <optgroup label="Cloud">
+                <option value="CLD203x">Office 365: Managing Identities and Services</option>
+            </optgroup>
+            <optgroup label="Development">
+                <option value="DEV208x">Introduction to jQuery</option>
+            </optgroup>
+        </select>
+        <hr />
+
+        <form>
+            User name :<input type="text" name="username" />
+            Email address: <input type="email" name="email" placeholder="Please write your email address" required="required" />
+            OK <input type="submit" name="clickme" />
+        </form>
+        <p><a href="#stain" target="_top">Go to top page</a></p>
+    </div>
+    <hr />
+    <div>
+
+        <!-- if novalidate you can customize validation-->
+        <!--action: This is the URL of the web server or web service where you want you form data saved.-->
+        <!--- method: This is the HTTP method you are using to save your form data. Only GET and POST are valid in this context.-->
+        <form action="http://www.example.com/formsubmission" method="POST">
+            <fieldset>
+                <legend>Text Data</legend>
+                First Name:<br />
+                <input type="text" name="firstName"   value="" placeholder="Enter your First Name here" autocomplete="on" /><br />
+                Last Name:<br />
+                <input type="text" name="lastName" autofocus="autofocus" value="" placeholder="Enter your Last Name here" /><br />
+                zip code :<br />
+                <input name="zipcode" type="text" pattern="\d{5}(-\d{4})?" required="required" />
+            </fieldset>
+            <fieldset>
+                <legend>Numeric Data</legend>
+                Age:<br />
+                <input type="range" name="age" min="0" max="100" value="25" /><br />
+                <br />
+                web page :<input type="url" name="profile-url" />
+                <br />
+                Telephone:<input type="tel" name="telephone" />
+
+
+            </fieldset>
+            <fieldset>
+                <legend>administrative </legend>
+                Yes   <input type="radio" value="true" checked="checked" />
+                No   <input type="radio" value="false" />
+
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Click Me to Submit" />
+            </fieldset>
+
+            <hr />
+
+            <input type="date" />
+            <hr />
+           <a href="Media.html">Video &amp; audio in HTML5 </a>
+            <br />
+
+            <a href="SemanticElements.html" >Semantic elements in HTML5</a>
+            <br />
+
+            <a href="SVGGraphic.html">SVG Graphic in HTML5</a>
+            <br />
+
+            <hr />
+
+        </form>
+    </div>
+</body>
+</html>
